@@ -1,6 +1,12 @@
 // import './App.css';
 // import { Component } from 'react';
-import MyComponent from './MyComponent';
+// import MyComponent from './MyComponent';
+import Counter from './Counter';
+import Say from './Say';
+
+const App = () => {
+  return <Say />;
+};
 
 // import './App.css';
 // function App() {
@@ -26,12 +32,12 @@ import MyComponent from './MyComponent';
 //   }
 // }
 
-const App = () => {
-  return (
-    <div>
-      <MyComponent />
-    </div>
-  );
-};
+// const App = () => {
+//   return (
+//     <MyComponent name={'React'} favoriteNumber={1}>
+//       리액트
+//     </MyComponent>
+//   );
+// };
 
 export default App;
